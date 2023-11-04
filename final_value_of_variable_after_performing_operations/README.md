@@ -60,3 +60,7 @@ Worst Case Time Complexity:
 - Scale with input size N?
 - Removing co-efficients, and only taking the highest power (polynomial)
 - O(1)
+
+## Acceptance
+
+![Image](./images/accepted.png)

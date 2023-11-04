@@ -12,10 +12,11 @@
 - Strengths and Weaknesses of each Solution
 - Recommended Solution
 - Video Explanation + Live Coding
+- Unit Tests for each proposed Solution.
 
 ## Questions
 
-[1. (2011) Final Value of Variable after Performing Operations](./001_final_value_of_variable_after_performing_operations/README.md)
+[1. (2011) Final Value of Variable after Performing Operations](final_value_of_variable_after_performing_operations/README.md)
 
 ## This repository uses `poetry` as a package manager for this repository
 
@@ -87,3 +88,21 @@ mypy .
 ```
 
 ![Image](./images/detect_type_errors_with_mypy.png)
+
+## Running Unit Tests
+
+This allows us to unit test every solution
+
+### Step 1: Define `PYTHONPATH` to point to the current working directory. This allows `pytest` to detect the unit test files properly from the `PYTHONPATH`
+
+```commandline
+export PYTHONPATH=.
+```
+
+### Step 2: Run the tests in the `unit_tests` folder
+
+```commandline
+pytest unit_tests
+```
+
+![Image](./images/running_unit_tests.png)
