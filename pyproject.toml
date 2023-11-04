@@ -1,0 +1,15 @@
+[tool.poetry]
+name="leetcode_v2"
+version="0.1.0"
+description="Project to house common practice questions in python"
+authors = ["Clement Goh <shipitparrot@gmail.com>"]
+maintainers = [
+    "Clement Goh <shipitparrot@gmail.com>"
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+black = "^23.10.1"
+ruff = "^0.1.4"
+mypy = "^1.6.1"
