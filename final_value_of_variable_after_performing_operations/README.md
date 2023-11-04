@@ -15,7 +15,7 @@
 
 ## Link to Live Attempt
 
-[ShipItParrot]()
+[ShipItParrot](https://www.youtube.com/watch?v=-5Sz8xnPGwg)
 
 ## Clusters of possible test cases
 
