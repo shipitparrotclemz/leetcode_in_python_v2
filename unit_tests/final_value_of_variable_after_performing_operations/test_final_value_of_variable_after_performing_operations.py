@@ -1,7 +1,7 @@
 from typing import List
 
 import pytest
-from final_value_of_variable_after_performing_operations.main import Solution
+from questions.final_value_of_variable_after_performing_operations.main import Solution
 
 
 @pytest.fixture

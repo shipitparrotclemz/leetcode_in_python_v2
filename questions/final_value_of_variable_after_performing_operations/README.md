@@ -11,7 +11,7 @@
 
 ## Question
 
-![Image](./images/question.png)
+![Image](images/question.png)
 
 ## Link to Live Attempt
 
@@ -45,7 +45,7 @@
 
 #### Implementation
 
-[Link to Implementation](./main.py)
+[Link to Implementation](main.py)
 
 #### Worst-case Time Complexity
 - In the worse case scenario, how does your algorithm's time taken to run
@@ -59,6 +59,6 @@
 - Removing co-efficients, and only taking the highest power (polynomial)
 - O(1)
 
-## Acceptance
+#### Approach 1 Acceptance
 
-![Image](./images/accepted.png)
+![Image](images/accepted.png)

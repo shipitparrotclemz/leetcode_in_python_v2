@@ -16,7 +16,9 @@
 
 ## Questions
 
-[1. (2011) Final Value of Variable after Performing Operations](final_value_of_variable_after_performing_operations/README.md)
+1. [(2011) Final Value of Variable after Performing Operations](questions/final_value_of_variable_after_performing_operations/README.md)
+2. [(2114) Maximum Number of Words found in Sentences](questions/maximum_number_of_words_found_in_sentence/README.md)
+
 
 ## This repository uses `poetry` as a package manager for this repository
 
