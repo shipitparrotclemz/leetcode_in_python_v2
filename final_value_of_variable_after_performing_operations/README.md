@@ -48,8 +48,6 @@
 [Link to Implementation](./main.py)
 
 #### Worst-case Time Complexity
-
-Worst Case Time Complexity:
 - In the worse case scenario, how does your algorithm's time taken to run
 - Scale with the input size N?
 - Removing co-efficients, and only taking the highest power (polynomial)
