@@ -4,114 +4,19 @@
 
 ## Prerequisite Concepts:
 
-1. Iterating each `str` in a `List[str]` with `for`
+[1. Iterating each `str` in a `List[str]` with `for`](../../prerequisite_concepts/list/001_iterating_items_in_a_list.md)
 
-```python3
-from typing import List
-my_list: List[str] = ["this", "is", "a", "word"]
+[2. python's standard `str`'s `split` method, to split a sentence into a `List[str]` by space as a delimiter `" "`](../../prerequisite_concepts/str/001_split_string_by_delimiter.md)
 
-for word in my_list:
-    print(word)
-```
+[3. Iterating characters in a `str` with a `for` loop](../../prerequisite_concepts/str/002_iterating_characters_in_a_string_with_a_for_loop.md)
 
-This will iterate 4 times (once for each word in the list), and print each in the list
+[4. Checking if a `str` with a single character is a space](../../prerequisite_concepts/str/003_checking_if_a_string_is_equal_to_another_string.md)
 
-```txt
-this
-is
-a
-word
-```
+[5. Checking length of a `list` with `len()`](../../prerequisite_concepts/list/002_checking_length_of_a_list_with_len.md)
 
-2. python's standard `str`'s `split` method, to split a sentence into a `List[str]` by space as a delimiter `" "`
+[6. Getting max of two numbers with `max()`](../../prerequisite_concepts/arithmetic/001_getting_max_of_two_numbers_with_max.md)
 
-```python3
-from typing import List
-my_string: str = "my sentence"
-my_split_string: List[str] = my_string.split(" ")   # ["my", "sentence"]
-```
-
-- Iterating characters in a `str` with a `for` loop
-
-```python3
-for i in "cheese":
-    print(i)
-```
-
-This will go through all 6 characters in "cheese", printing each character
-
-```
-c
-h
-e
-e
-s
-e
-```
-
-3. Checking if a `str` with a single character is a space
-
-```python3
-my_char: str = " "
-my_char_is_space: bool = my_char == " "
-print(my_char_is_space)
-```
-
-This will print `True`
-
-```txt
-True
-```
-
-4. Checking the length of a list, with `len()`
-
-```python3
-from typing import List
-my_list: List[str] = ["this", "is", "a", "sentence"]
-my_list_length: int = len(my_list)
-print(my_list_length)
-```
-
-This will print 4
-
-```txt
-4
-```
-
-5. Getting the max of two numbers with `max()`
-
-```python3
-first_num: int = 10
-second_num: int = 20
-max_of_two_nums: int = max(first_num, second_num)
-print(max_of_two_nums)
-```
-
-This will print
-
-```txt
-20
-```
-
-6. Getting the max of numbers in a List by overriding the max number, only if a number is greater than it. 
-
-```python3
-from typing import List
-current_max: int = 0
-my_numbers: List[int] = [10, 20]
-
-for number in my_numbers:
-    if number > current_max:
-        current_max = number
-
-print(current_max)
-```
-
-This will print
-
-```txt
-20
-```
+[7. Getting max of multiple numbers](../../prerequisite_concepts/arithmetic/002_getting_max_of_multiple_numbers.md)
 
 ## Question
 

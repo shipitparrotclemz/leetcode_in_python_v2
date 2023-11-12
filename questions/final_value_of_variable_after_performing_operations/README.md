@@ -4,10 +4,9 @@
 
 ## Prerequisite Concepts:
 
-- Arrays (list in python)
-  - Iterating an array with `for`
-- Strings (str in python)
-  - Checking if two `str` are the same with the `==` operator
+1. [Iterating items in a List](../../prerequisite_concepts/list/001_iterating_items_in_a_list.md)
+
+2. [Checking if two `str` are equal with the `==` operator](../../prerequisite_concepts/str/003_checking_if_a_string_is_equal_to_another_string.md)
 
 ## Question
 
